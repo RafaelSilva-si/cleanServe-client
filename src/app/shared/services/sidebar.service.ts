@@ -21,7 +21,7 @@ export class SidebarService {
     {
       label: 'Serviços',
       icon: 'shield-alt',
-      path: 'services',
+      path: 'service',
     },
     {
       label: 'Orçamentos',
