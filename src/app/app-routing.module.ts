@@ -6,6 +6,7 @@ import { ServiceModule } from './modules/service/service.module';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { ScheduleModule } from './modules/schedule/schedule.module';
 import { InfoModule } from './modules/info/info.module';
+import { ProfileModule } from './modules/profile/profile.module';
 
 const routes: Routes = [
   { path: 'dashboard', loadChildren: () => DashboardModule },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'service', loadChildren: () => ServiceModule },
   { path: 'schedule', loadChildren: () => ScheduleModule },
   { path: 'info', loadChildren: () => InfoModule },
+  { path: 'profile', loadChildren: () => ProfileModule },
 ];
 
 @NgModule({
