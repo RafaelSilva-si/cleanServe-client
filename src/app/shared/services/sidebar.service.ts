@@ -31,7 +31,7 @@ export class SidebarService {
     {
       label: 'Agendamento',
       icon: 'calendar-week',
-      path: 'schedules',
+      path: 'schedule',
     },
     {
       label: 'Clientes',
