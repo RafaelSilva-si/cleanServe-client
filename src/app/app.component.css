@@ -1,0 +1,28 @@
+#main {
+  background-color: #FAFBFF;
+  margin-left: 306px;
+  height: 100vh;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#content {
+  padding: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  #main {
+    margin-left: 0px;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+}
+
+
+
+
