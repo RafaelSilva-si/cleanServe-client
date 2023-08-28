@@ -1,0 +1,14 @@
+<div class="signin_main">
+  <h1 class="signin__title">Cadastrar</h1>
+  <form class="signin__form">
+    <app-input-label label="Nome" placeholder="Rafael"></app-input-label>
+    <app-input-label label="Email" placeholder="example@example.com"></app-input-label>
+    <app-input-label label="Senha" placeholder="**********"></app-input-label>
+    <app-button (buttonClick)="consoleLog()" name="Cadastrar"></app-button>
+    <div>
+      <p>Já tem uma conta?
+        <app-link name="Acessar" path="/auth/signin"></app-link>
+      </p>
+    </div>
+  </form>
+</div>

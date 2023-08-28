@@ -1,0 +1,18 @@
+<div class="signin_main">
+  <img src="/assets/logo.png" class="signin__logo" />
+  <h1 class="signin__title">Entrar</h1>
+  <form class="signin__form">
+    <app-input-label label="Email" placeholder="example@example.com"></app-input-label>
+    <app-input-label label="Senha" placeholder="**********"></app-input-label>
+    <div class="signin__helpers">
+      <app-checkbox></app-checkbox>
+      <app-link name="Esqueceu a senha?" path="/"></app-link>
+    </div>
+    <app-button (buttonClick)="consoleLog()" name="Entrar"></app-button>
+    <div>
+      <p>Não Tem Uma Conta?
+        <app-link name="Cadastre-se" path="/auth/signup"></app-link>
+      </p>
+    </div>
+  </form>
+</div>

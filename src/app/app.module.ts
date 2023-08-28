@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SharedModule } from './shared/shared.module';
+import { AuthComponent } from './modules/layout/auth/auth.component';
+import { AuthenticatedComponent } from './modules/layout/authenticated/authenticated.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AuthenticatedComponent, AuthComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent],

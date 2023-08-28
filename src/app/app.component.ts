@@ -18,8 +18,7 @@ import {
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  template: '<router-outlet></router-outlet>',
 })
 export class AppComponent {
   constructor(library: FaIconLibrary, public sidebarService: SidebarService) {

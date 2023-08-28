@@ -1,0 +1,22 @@
+.input__main {
+  width: 100%;
+}
+
+.input__label {
+  display: block;
+  font-weight: 500;
+}
+
+.input__field {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #dcdcdc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.input__field:focus {
+  outline: none;
+  border: 2px solid #2196f3;
+}

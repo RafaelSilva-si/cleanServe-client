@@ -1,0 +1,39 @@
+.signin_main {
+  padding: 2rem;
+}
+
+.signin__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.signin__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.signin__helpers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin__logo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .signin_main p{
+    text-align: center;
+
+  }
+
+  .signin__title {
+    display: none;
+  }
+
+  .signin__logo {
+    display: block;
+    margin: 3rem auto;
+  }
+}
