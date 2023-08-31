@@ -1,4 +1,4 @@
 <div class="input__main">
   <label class="input__label">{{label}}</label>
-  <input [placeholder]="placeholder" class="input__field" />
+  <input [placeholder]="placeholder" [value]="innerValue" (input)="updateValue($event)" class="input__field" />
 </div>
