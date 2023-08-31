@@ -1,7 +1,8 @@
 # Documentação do Frontend CleanServe
 
-> Status: Em desenvolvimento ⚙
-
+> Status: Em desenvolvimento ⚙ 
+---
+> issues: https://github.com/users/RafaelSilva-si/projects/2/views/1
 ## Visão Geral
 Bem-vindo à documentação do Frontend CleanServe. Este documento fornece informações sobre como a interface do usuário da CleanServe foi construída e como você pode interagir com ela.
 
