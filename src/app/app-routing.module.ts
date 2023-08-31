@@ -8,7 +8,7 @@ import { ScheduleModule } from './modules/schedule/schedule.module';
 import { InfoModule } from './modules/info/info.module';
 import { ProfileModule } from './modules/profile/profile.module';
 import { AuthModule } from './modules/auth/auth.module';
-import { AuthGuard } from './core/auth/auth.guard';
+import { AuthGuard } from './core/guards/auth.guard';
 import { AuthenticatedComponent } from './modules/layout/authenticated/authenticated.component';
 import { AuthComponent } from './modules/layout/auth/auth.component';
 
