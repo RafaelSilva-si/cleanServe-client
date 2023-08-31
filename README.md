@@ -13,6 +13,15 @@ Bem-vindo à documentação do Frontend CleanServe. Este documento fornece infor
 * HTML/CSS: Linguagens padrão para marcação e estilo da interface do usuário.
 * Angular CLI: Ferramenta de linha de comando para criar, construir e testar aplicativos Angular.
 
+## Galeria de Imagens
+
+Aqui estão algumas imagens da nossa aplicação CleanService em ação:
+
+![image](https://github.com/RafaelSilva-si/cleanServe-client/assets/77937182/9ff95e82-744f-4148-bc03-6f9eb8d3ef2b)
+![image](https://github.com/RafaelSilva-si/cleanServe-client/assets/77937182/3918fbc2-b094-4164-b456-7d060a0cd719)
+![image](https://github.com/RafaelSilva-si/cleanServe-client/assets/77937182/a0d31ad8-10f9-4e72-a297-fadd310f64b3)
+
+
 ## Pré-requisitos
 Certifique-se de ter o seguinte software instalado antes de executar o frontend CleanServe:
 
