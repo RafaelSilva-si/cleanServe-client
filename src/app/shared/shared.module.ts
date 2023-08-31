@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { LinkComponent } from './components/link/link.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CheckboxComponent } from './components/checkbox/checkbox.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { CheckboxComponent } from './components/checkbox/checkbox.component';
     ButtonComponent,
     CheckboxComponent,
   ],
-  imports: [CommonModule, FontAwesomeModule, RouterModule],
+  imports: [CommonModule, FontAwesomeModule, RouterModule, ReactiveFormsModule],
   providers: [SidebarService],
   exports: [
     SidebarComponent,
